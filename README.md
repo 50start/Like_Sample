@@ -24,17 +24,23 @@ Things you may want to cover:
 gem 'devise'
 
 $ bundle install
+
 $ rails g devise:install
+
 $ rails g devise user
+
 $ rails g devise:views
 
 $ rails g model post content:string user:references
+
 $ rails db:migrate
 
 $ rails g controller users index show
+
 $ rails g controller posts index show
 
 $ rails g model like post:references user:references
+
 $ rails db:migrate
 
 $ rails g controller likes
